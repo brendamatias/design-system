@@ -13,7 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.21.4",
-    "@mdx-js/react": "^2.3.0",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.12",
     "@storybook/addon-interactions": "^6.5.12",
@@ -26,9 +25,11 @@
     "vite": "^3.1.4"
   },
   "dependencies": {
+    "@vibbra/eslint-config": "*",
+    "@vibbra/ts-config": "*",
     "@vibbra/react": "*",
     "@vibbra/tokens": "*",
-    "@vibbra/eslint-config": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
