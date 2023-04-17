@@ -1,0 +1,4 @@
+{
+  "extends": "@vibbra/ts-config/base.json",
+  "include": ["src"]
+}
