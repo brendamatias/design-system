@@ -1,4 +1,4 @@
 {
-  "extends": "@vibbra/ts-config/react.json",
+  "extends": "@vibbra-ui/ts-config/react.json",
   "include": ["src"]
 }

@@ -1,4 +1,4 @@
-import { colors } from '@vibbra/tokens'
+import { colors } from '@vibbra-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

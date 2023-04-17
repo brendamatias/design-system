@@ -1,5 +1,5 @@
 {
-  "name": "@vibbra/docs",
+  "name": "@vibbra-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -28,10 +28,10 @@
   },
   "dependencies": {
     "@storybook/addon-a11y": "^6.5.12",
-    "@vibbra/eslint-config": "*",
-    "@vibbra/react": "*",
-    "@vibbra/tokens": "*",
-    "@vibbra/ts-config": "*",
+    "@vibbra-ui/eslint-config": "*",
+    "@vibbra-ui/react": "*",
+    "@vibbra-ui/tokens": "*",
+    "@vibbra-ui/ts-config": "*",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",

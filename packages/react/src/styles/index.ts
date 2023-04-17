@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@vibbra/tokens'
+} from '@vibbra-ui/tokens'
 
 export const {
   styled,

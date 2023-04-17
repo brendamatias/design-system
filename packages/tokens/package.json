@@ -1,5 +1,5 @@
 {
-  "name": "@vibbra/tokens",
+  "name": "@vibbra-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,8 +13,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@vibbra/ts-config": "*",
-    "@vibbra/eslint-config": "*",
+    "@vibbra-ui/ts-config": "*",
+    "@vibbra-ui/eslint-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
   }

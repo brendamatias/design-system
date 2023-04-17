@@ -1,5 +1,5 @@
 {
-  "name": "@vibbra/react",
+  "name": "@vibbra-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -15,9 +15,9 @@
   "devDependencies": {
     "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
-    "@vibbra/eslint-config": "*",
-    "@vibbra/tokens": "*",
-    "@vibbra/ts-config": "*",
+    "@vibbra-ui/eslint-config": "*",
+    "@vibbra-ui/tokens": "*",
+    "@vibbra-ui/ts-config": "*",
     "react": "^18.2.0",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
