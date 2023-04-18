@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.2.1
+
+### Patch Changes
+
+- add option to pass reference to TextInput and adjust some styles
+
 ## 1.2.0
 
 ### Minor Changes
