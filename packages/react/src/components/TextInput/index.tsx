@@ -1,17 +1,22 @@
 import { ComponentProps, forwardRef, ElementRef } from 'react'
 import { Input, Prefix, TextInputContainer } from './styles'
+import { Label } from '../Label'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
+  label: string
+  error?: string
   prefix?: string
 }
 
 export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
-  ({ prefix, ...props }: TextInputProps, ref) => {
+  ({ label, prefix, error, ...props }: TextInputProps, ref) => {
     return (
-      <TextInputContainer>
-        {!!prefix && <Prefix>{prefix}</Prefix>}
-        <Input ref={ref} {...props} />
-      </TextInputContainer>
+      <Label label={label} error={error}>
+        <TextInputContainer>
+          {!!prefix && <Prefix>{prefix}</Prefix>}
+          <Input ref={ref} {...props} />
+        </TextInputContainer>
+      </Label>
     )
   },
 )

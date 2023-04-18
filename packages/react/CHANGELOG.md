@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.3.0
+
+### Minor Changes
+
+- add label to text and textarea inputs
+
 ## 1.2.2
 
 ### Patch Changes
