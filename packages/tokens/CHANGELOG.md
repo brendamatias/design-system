@@ -1,5 +1,11 @@
 # @vibbra-ui/tokens
 
+## 1.2.2
+
+### Patch Changes
+
+- add new space and color
+
 ## 1.2.1
 
 ### Patch Changes
