@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.4.1
+
+### Patch Changes
+
+- fix arithmetic operation with date type
+
 ## 1.4.0
 
 ### Minor Changes

@@ -37,7 +37,9 @@ const strToTimeAgo = (label: DateLabel, interval: number) => {
 }
 
 export const formatTimeAgo = (date: Date) => {
-  const seconds = Math.floor((new Date() - date) / 1000)
+  const now = new Date()
+
+  const seconds = Math.floor((now.getTime() - date.getTime()) / 1000)
   let interval = seconds / SECONDS_PER_YEAR
 
   if (interval > 1) return strToTimeAgo('ano', interval)
