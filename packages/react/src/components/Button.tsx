@@ -8,9 +8,8 @@ export const Button = styled('button', {
   fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
-  minWidth: 120,
   boxSizing: 'border-box',
-  padding: '0 $4',
+  minWidth: 120,
 
   display: 'flex',
   alignItems: 'center',
@@ -33,6 +32,17 @@ export const Button = styled('button', {
   },
 
   variants: {
+    size: {
+      sm: {
+        padding: '$2 $3',
+        minWidth: 80,
+        fontSize: '$xs',
+      },
+
+      md: {
+        padding: '$3 $4',
+      },
+    },
     variant: {
       primary: {
         color: '$white',
@@ -48,7 +58,7 @@ export const Button = styled('button', {
       },
 
       secondary: {
-        color: '$vibbra100',
+        color: '$vibbra300',
         border: '2px solid $vibbra300',
 
         '&:not(:disabled):hover': {
@@ -63,6 +73,8 @@ export const Button = styled('button', {
       },
 
       tertiary: {
+        padding: 0,
+        minWidth: 'auto',
         color: '$vibbra300',
 
         '&:not(:disabled):hover': {
@@ -72,16 +84,6 @@ export const Button = styled('button', {
         '&:disabled': {
           color: '$vibbra500',
         },
-      },
-    },
-
-    size: {
-      sm: {
-        height: 38,
-      },
-
-      md: {
-        height: 46,
       },
     },
   },

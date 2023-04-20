@@ -16,6 +16,6 @@ export const TextLabel = styled(Text, {
 })
 
 export const FormError = styled(Text, {
-  color: '$red',
+  color: '$error',
   fontWeight: '$semibold',
 })
