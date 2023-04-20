@@ -7,5 +7,7 @@ export * from './components/TextArea'
 export * from './components/Checkbox'
 export * from './components/Box'
 export * from './components/MultiStep'
+export * from './components/Notifications'
 
 export * from './styles'
+export * from './utils'
