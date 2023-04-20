@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.4.2
+
+### Patch Changes
+
+- adjust header styles and props
+
 ## 1.4.1
 
 ### Patch Changes

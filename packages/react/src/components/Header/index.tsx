@@ -8,19 +8,20 @@ import { Notifications, Notification } from '../Notifications'
 import classNames from 'classnames'
 
 export interface HeaderProps extends ComponentProps<typeof HeaderContainer> {
-  profile: AvatarProps
+  avatar: AvatarProps
   balance: number
-  chat: {
-    redirect: string
-    unread: boolean
-  }
+  chatPath: string
+  profilePath: string
+  hasUnreadChat?: boolean
   notifications?: Notification[]
 }
 
 export function Header({
-  profile,
+  avatar,
   balance,
-  chat,
+  chatPath,
+  profilePath,
+  hasUnreadChat,
   notifications = [],
 }: HeaderProps) {
   return (
@@ -31,9 +32,9 @@ export function Header({
 
       <ChatRedirect
         as="a"
-        href={chat.redirect}
+        href={chatPath}
         className={classNames({
-          'has-unread': chat.unread,
+          'has-unread': hasUnreadChat,
         })}
       >
         <MdQuestionAnswer size={24} />
@@ -41,7 +42,9 @@ export function Header({
 
       <Notifications notifications={notifications} />
 
-      <Avatar {...profile} />
+      <a href={profilePath}>
+        <Avatar {...avatar} />
+      </a>
     </HeaderContainer>
   )
 }

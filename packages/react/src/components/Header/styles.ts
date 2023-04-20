@@ -4,7 +4,10 @@ import { Text } from '../Text'
 export const HeaderContainer = styled('header', {
   display: 'flex',
   alignItems: 'center',
+  justifyContent: 'flex-end',
   gap: '$5',
+  padding: '$5 $20',
+  borderBottom: '1px solid $gray100',
 })
 
 export const ChatRedirect = styled(Text, {

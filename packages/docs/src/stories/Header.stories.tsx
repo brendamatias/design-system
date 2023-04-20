@@ -1,19 +1,17 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Header, HeaderProps } from '@vibbra-ui/react'
+import { Header, HeaderProps } from '@vibbra-ui/react'
 
 export default {
   title: 'Navigation/Header',
   component: Header,
   args: {
-    profile: {
+    avatar: {
       src: 'https://github.com/brendamatias.png',
       alt: 'Brenda Matias',
     },
-    chat: {
-      redirect: 'http://localhost:300',
-      unread: true,
-    },
-
+    chatPath: '/messages',
+    profilePath: '/chat',
+    hasUnreadChat: true,
     notifications: [
       {
         id: '1',
@@ -32,13 +30,6 @@ export default {
     ],
     balance: 5200,
   },
-  decorators: [
-    (Story) => {
-      return (
-        <Box css={{ display: 'flex', justifyContent: 'center' }}>{Story()}</Box>
-      )
-    },
-  ],
 } as Meta<HeaderProps>
 
 export const Primary: StoryObj<HeaderProps> = {}
@@ -51,9 +42,6 @@ export const WithoutNotification: StoryObj<HeaderProps> = {
 
 export const WithoutMessages: StoryObj<HeaderProps> = {
   args: {
-    chat: {
-      redirect: 'http://localhost:300',
-      unread: false,
-    },
+    hasUnreadChat: false,
   },
 }
