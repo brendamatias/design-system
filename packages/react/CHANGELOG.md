@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.4.0
+
+### Minor Changes
+
+- add header, notification and balance components
+
 ## 1.3.1
 
 ### Patch Changes
