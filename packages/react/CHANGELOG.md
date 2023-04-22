@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.5.2
+
+### Patch Changes
+
+- align text on sidebar
+
 ## 1.5.1
 
 ### Patch Changes

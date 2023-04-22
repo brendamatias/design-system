@@ -82,6 +82,7 @@ export const CallToAction = styled(Box, {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
+  textAlign: 'center',
   background: 'rgb(146, 207, 83)',
   borderRadius: '$xs',
   margin: '$5 $8',
