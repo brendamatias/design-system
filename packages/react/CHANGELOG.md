@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.5.0
+
+### Minor Changes
+
+- add sidebar and link components
+
 ## 1.4.2
 
 ### Patch Changes
