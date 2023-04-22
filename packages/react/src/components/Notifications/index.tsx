@@ -1,7 +1,7 @@
 import { ComponentProps } from 'react'
 import { NotificationsButton, NotificationsContainer } from './styles'
 import { useToggle } from '../../utils'
-import { NotificationIcon } from '../../icons'
+import { NotificationIcon } from '../../assets/icons'
 import classNames from 'classnames'
 import { Dropdown } from './Dropdown'
 

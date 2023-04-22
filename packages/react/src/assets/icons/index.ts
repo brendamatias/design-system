@@ -4,3 +4,5 @@ export interface IconProps {
 
 export * from './Notification'
 export * from './Wallet'
+export * from './ChevronBar'
+export * from './Burger'

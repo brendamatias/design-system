@@ -3,7 +3,7 @@ import { HeaderContainer, ChatRedirect } from './styles'
 import { Avatar, AvatarProps } from '../Avatar'
 import { MdQuestionAnswer } from 'react-icons/md'
 import { Balance } from '../Balance'
-import { WalletIcon } from '../../icons'
+import { WalletIcon } from '../../assets/icons'
 import { Notifications, Notification } from '../Notifications'
 import classNames from 'classnames'
 
