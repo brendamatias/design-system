@@ -14,6 +14,13 @@ export const Primary: StoryObj<TextInputProps> = {
   },
 }
 
+export const WithoutLabel: StoryObj<TextInputProps> = {
+  args: {
+    label: undefined,
+    placeholder: 'client@vibbra.com.br',
+  },
+}
+
 export const Error: StoryObj<TextInputProps> = {
   args: {
     label: 'Email',

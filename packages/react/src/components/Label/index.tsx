@@ -1,7 +1,7 @@
 import { Container, TextLabel, FormError } from './styles'
 
 export interface LabelProps {
-  label: string
+  label?: string
   error?: string
   children: any
 }
@@ -9,9 +9,11 @@ export interface LabelProps {
 export const Label = ({ label, error, children }: LabelProps) => {
   return (
     <Container as="label">
-      <TextLabel as="span" size="sm">
-        {label}
-      </TextLabel>
+      {label && (
+        <TextLabel as="span" size="sm">
+          {label}
+        </TextLabel>
+      )}
 
       {children}
 

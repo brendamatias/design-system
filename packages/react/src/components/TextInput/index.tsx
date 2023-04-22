@@ -3,7 +3,7 @@ import { Input, Prefix, TextInputContainer } from './styles'
 import { Label } from '../Label'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
-  label: string
+  label?: string
   error?: string
   prefix?: string
 }
