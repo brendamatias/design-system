@@ -30,6 +30,7 @@ export const SidebarContainer = styled('aside', {
 
     '&:hover, &.active': {
       background: '$white',
+      color: '$vibbra300',
     },
 
     '&.retracted': {
@@ -52,6 +53,7 @@ export const Content = styled('div', {
 })
 
 export const ButtonToggleRetracted = styled('button', {
+  height: 40,
   border: 0,
   background: 'none',
   cursor: 'pointer',

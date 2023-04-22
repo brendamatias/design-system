@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.5.1
+
+### Patch Changes
+
+- sidebar styles
+
 ## 1.5.0
 
 ### Minor Changes
