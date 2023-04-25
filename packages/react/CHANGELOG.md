@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.6.1
+
+### Patch Changes
+
+- add label to checkbox component
+
 ## 1.6.0
 
 ### Minor Changes

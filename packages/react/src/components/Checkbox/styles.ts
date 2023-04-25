@@ -1,7 +1,16 @@
 import * as Checkbox from '@radix-ui/react-checkbox'
 import { styled, keyframes } from '../../styles'
+import { Text } from '../Text'
 
-export const CheckboxContainer = styled(Checkbox.Root, {
+export const CheckboxContainer = styled(Text, {
+  display: 'flex',
+  alignItems: 'center',
+  fontWeight: '$medium',
+  color: '$gray200',
+  gap: '$2',
+})
+
+export const CheckboxRoot = styled(Checkbox.Root, {
   all: 'unset',
   width: '$4',
   height: '$4',
