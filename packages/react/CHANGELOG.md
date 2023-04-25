@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.6.0
+
+### Minor Changes
+
+- add tabs and tooltip components
+
 ## 1.5.2
 
 ### Patch Changes
