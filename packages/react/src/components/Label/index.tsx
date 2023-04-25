@@ -1,9 +1,10 @@
+import { ReactElement } from 'react'
 import { Container, TextLabel, FormError } from './styles'
 
 export interface LabelProps {
   label?: string
   error?: string
-  children: any
+  children: ReactElement
 }
 
 export const Label = ({ label, error, children }: LabelProps) => {

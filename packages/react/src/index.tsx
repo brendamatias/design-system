@@ -12,6 +12,7 @@ export * from './components/Balance'
 export * from './components/Notifications'
 export * from './components/Link'
 export * from './components/Sidebar'
+export * from './components/Tooltip'
 
 export * from './styles'
 export * from './utils'

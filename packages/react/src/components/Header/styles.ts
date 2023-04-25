@@ -7,7 +7,6 @@ export const HeaderContainer = styled('header', {
   justifyContent: 'flex-end',
   gap: '$5',
   padding: '$5 $20',
-  borderBottom: '1px solid $gray100',
 })
 
 export const ChatRedirect = styled(Text, {
