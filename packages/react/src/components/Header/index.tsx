@@ -30,21 +30,21 @@ export function Header({
         <WalletIcon />
       </Balance>
 
-      <ChatRedirect
-        as="a"
-        href={chatPath}
-        className={classNames({
-          'has-unread': hasUnreadChat,
-        })}
-      >
-        <MdQuestionAnswer size={24} />
-      </ChatRedirect>
-
-      <Notifications notifications={notifications} />
-
-      <a href={profilePath}>
-        <Avatar {...avatar} />
-      </a>
+      <div>
+        <ChatRedirect
+          as="a"
+          href={chatPath}
+          className={classNames({
+            'has-unread': hasUnreadChat,
+          })}
+        >
+          <MdQuestionAnswer size={24} />
+        </ChatRedirect>
+        <Notifications notifications={notifications} />
+        <a href={profilePath}>
+          <Avatar {...avatar} />
+        </a>
+      </div>
     </HeaderContainer>
   )
 }

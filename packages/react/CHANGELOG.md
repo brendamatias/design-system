@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.6.2
+
+### Patch Changes
+
+- add responsive header component
+
 ## 1.6.1
 
 ### Patch Changes
