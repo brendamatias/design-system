@@ -73,10 +73,25 @@ export const TabsItem = styled(Tabs.Trigger, {
     right: 0,
     bottom: -1,
   },
+
+  span: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'absolute',
+    height: '$5',
+    width: '$5',
+    borderRadius: '$full',
+    top: -15,
+    right: -20,
+    background: '$red',
+    color: '$white',
+  },
 })
 
 export const TabsContent = styled(Tabs.Content, {
   width: '100%',
+  height: '100%',
 })
 
 export const TabsTitle = styled(Text, {

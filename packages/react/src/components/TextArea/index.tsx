@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react'
+import { ComponentProps, ElementRef, forwardRef } from 'react'
 import { TextAreaInput } from './styles'
 import { Label } from '../Label'
 
@@ -7,12 +7,15 @@ export interface TextAreaProps extends ComponentProps<typeof TextAreaInput> {
   error?: string
 }
 
-export const TextArea = ({ label, error, ...props }: TextAreaProps) => {
+export const TextArea = forwardRef<
+  ElementRef<typeof TextAreaInput>,
+  TextAreaProps
+>(({ label, prefix, error, ...props }: TextAreaProps, ref) => {
   return (
     <Label label={label} error={error}>
-      <TextAreaInput {...props} />
+      <TextAreaInput ref={ref} {...props} />
     </Label>
   )
-}
+})
 
 TextArea.displayName = 'TextArea'

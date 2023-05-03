@@ -42,6 +42,11 @@ export const Button = styled('button', {
       md: {
         padding: '$3 $4',
       },
+
+      lg: {
+        padding: '$3 $5',
+        fontSize: '$lg',
+      },
     },
     variant: {
       primary: {

@@ -7,6 +7,7 @@ import {
   TabsTitle,
 } from './styles'
 import { ReactElement } from 'react'
+import { Text } from '../Text'
 
 type Option = {
   id: string
@@ -34,9 +35,15 @@ export function Tabs({ options, variant = 'horizontal' }: TabsProps) {
             <hr />
           </>
         )}
-        {options.map((option) => (
-          <TabsItem key={option.id} value={option.id}>
-            {option.label}
+        {options.map(({ id, label, total = 0 }) => (
+          <TabsItem key={id} value={id}>
+            {label}
+
+            {total > 0 && (
+              <Text as="span" size="xs">
+                {total}
+              </Text>
+            )}
           </TabsItem>
         ))}
       </TabsList>
