@@ -16,6 +16,10 @@ export const AvatarContainer = styled(Avatar.Root, {
         width: '$12',
         height: '$12',
       },
+      sm: {
+        width: '$8',
+        height: '$8',
+      },
     },
   },
 
@@ -27,17 +31,14 @@ export const AvatarContainer = styled(Avatar.Root, {
 export const AvatarImage = styled(Avatar.Image, {
   objectFit: 'cover',
   borderRadius: 'inherit',
+  width: '100%',
+  height: '100%',
 
   variants: {
     size: {
-      lg: {
-        width: '100%',
-        height: '100%',
-      },
-      md: {
-        width: '100%',
-        height: '100%',
-      },
+      lg: {},
+      md: {},
+      sm: {},
     },
   },
 
@@ -55,11 +56,6 @@ export const AvatarFallback = styled(Avatar.Fallback, {
   backgroundColor: '$gray100',
   color: '$gray400',
 
-  svg: {
-    width: '$6',
-    height: '$6',
-  },
-
   variants: {
     size: {
       lg: {
@@ -67,6 +63,9 @@ export const AvatarFallback = styled(Avatar.Fallback, {
       },
       md: {
         svg: { width: '$6', height: '$6' },
+      },
+      sm: {
+        svg: { width: '$4', height: '$4' },
       },
     },
   },

@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.7.1
+
+### Patch Changes
+
+- add new variant size to avatar
+
 ## 1.7.0
 
 ### Minor Changes
