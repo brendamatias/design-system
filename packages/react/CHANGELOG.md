@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.7.2
+
+### Patch Changes
+
+- remove padding on header
+
 ## 1.7.1
 
 ### Patch Changes

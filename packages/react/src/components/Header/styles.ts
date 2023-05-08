@@ -6,7 +6,7 @@ export const HeaderContainer = styled('header', {
   alignItems: 'center',
   justifyContent: 'flex-end',
   gap: '$5',
-  padding: '$5 $20',
+  padding: '$5 0',
 
   '> div': {
     display: 'flex',
