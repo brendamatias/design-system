@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.8.0
+
+### Minor Changes
+
+- add dialog component
+
 ## 1.7.2
 
 ### Patch Changes
