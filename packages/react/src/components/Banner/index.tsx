@@ -5,15 +5,15 @@ import { Heading } from '../Heading'
 import { Button } from '../Button'
 
 export interface BannerProps extends ComponentProps<typeof Container> {
+  title: string
   img: string
-  description: string
   redirect: {
     label: string
     onClick: () => void
   }
 }
 
-export function Banner({ img, description, redirect, ...props }: BannerProps) {
+export function Banner({ img, title, redirect, ...props }: BannerProps) {
   return (
     <Container
       style={{
@@ -24,7 +24,7 @@ export function Banner({ img, description, redirect, ...props }: BannerProps) {
       {...props}
     >
       <Content>
-        <Heading as="h1">{description}</Heading>
+        <Heading as="h1">{title}</Heading>
 
         <Button onClick={redirect?.onClick} size="lg">
           {redirect?.label}

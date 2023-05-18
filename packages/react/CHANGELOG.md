@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.9.1
+
+### Patch Changes
+
+- change props name on banner
+
 ## 1.9.0
 
 ### Minor Changes
