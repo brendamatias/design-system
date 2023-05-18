@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.9.0
+
+### Minor Changes
+
+- add banner and total info components
+
 ## 1.8.0
 
 ### Minor Changes

@@ -18,6 +18,8 @@ export * from './components/AvatarInput'
 export * from './components/SelectInput'
 export * from './components/TextInputMask'
 export * from './components/Dialog'
+export * from './components/TotalInfo'
+export * from './components/Banner'
 
 export * from './styles'
 export * from './utils'
