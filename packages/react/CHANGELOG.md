@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.10.0
+
+### Minor Changes
+
+- add empty list component
+
 ## 1.9.1
 
 ### Patch Changes
