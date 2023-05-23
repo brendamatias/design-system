@@ -3,7 +3,7 @@ import { ComponentProps } from 'react'
 import { CheckboxContainer, CheckboxRoot, CheckboxIndicator } from './styles'
 
 export interface CheckboxProps extends ComponentProps<typeof CheckboxRoot> {
-  label: string
+  label?: string
 }
 
 export function Checkbox({ label, ...props }: CheckboxProps) {

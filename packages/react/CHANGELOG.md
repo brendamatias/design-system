@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.10.1
+
+### Patch Changes
+
+- change props checkbox
+
 ## 1.10.0
 
 ### Minor Changes
