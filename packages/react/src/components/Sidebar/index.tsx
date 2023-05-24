@@ -30,12 +30,12 @@ export interface SidebarProps extends ComponentProps<typeof SidebarContainer> {
   callToActionText: string
 }
 
-export function Sidebar({
+export const Sidebar = ({
   links,
   logoutPath,
   callToActionText,
   ...props
-}: SidebarProps) {
+}: SidebarProps) => {
   const [isRetracted, toggleIsRetracted] = useToggle(false)
 
   const isActive = (path: string) => window.location.pathname.includes(path)

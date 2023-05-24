@@ -27,7 +27,7 @@ export interface NotificationsProps {
   notifications: Notification[]
 }
 
-export function Notifications({ notifications, ...props }: NotificationsProps) {
+export const Notifications = ({ notifications }: NotificationsProps) => {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger asChild>

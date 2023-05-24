@@ -21,7 +21,7 @@ export interface TabsProps {
   variant?: 'horizontal' | 'vertical'
 }
 
-export function Tabs({ options, variant = 'horizontal' }: TabsProps) {
+export const Tabs = ({ options, variant = 'horizontal' }: TabsProps) => {
   return (
     <TabsContainer
       defaultValue={options[0].id}

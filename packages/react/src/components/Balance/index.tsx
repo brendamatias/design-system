@@ -10,7 +10,7 @@ export interface BalanceProps extends ComponentProps<typeof BalanceContainer> {
   value: number
 }
 
-export function Balance({ value, children, ...props }: BalanceProps) {
+export const Balance = ({ value, children, ...props }: BalanceProps) => {
   const [isVisible, toggleVisibility] = useToggle(false)
 
   return (

@@ -13,7 +13,7 @@ export interface BannerProps extends ComponentProps<typeof Container> {
   }
 }
 
-export function Banner({ img, title, redirect, ...props }: BannerProps) {
+export const Banner = ({ img, title, redirect, ...props }: BannerProps) => {
   return (
     <Container
       style={{

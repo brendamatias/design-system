@@ -11,7 +11,7 @@ export interface EmptyListProps
   children?: ReactElement
 }
 
-export function EmptyList({ title, description, children }: EmptyListProps) {
+export const EmptyList = ({ title, description, children }: EmptyListProps) => {
   return (
     <EmptyListContainer>
       <PersonBadgeFillIcon />

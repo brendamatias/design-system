@@ -16,14 +16,14 @@ export interface HeaderProps extends ComponentProps<typeof HeaderContainer> {
   notifications?: Notification[]
 }
 
-export function Header({
+export const Header = ({
   avatar,
   balance,
   chatPath,
   profilePath,
   hasUnreadChat,
   notifications = [],
-}: HeaderProps) {
+}: HeaderProps) => {
   return (
     <HeaderContainer>
       <Balance value={balance} variant="secondary">

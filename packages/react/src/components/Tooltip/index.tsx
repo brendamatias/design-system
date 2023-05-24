@@ -8,7 +8,7 @@ export interface TooltipProps extends ComponentProps<typeof TooltipTrigger> {
   children: ReactElement
 }
 
-export function Tooltip({ children, ...props }: TooltipProps) {
+export const Tooltip = ({ children, ...props }: TooltipProps) => {
   return (
     <ReactTooltip.Provider delayDuration={100}>
       <ReactTooltip.Root>

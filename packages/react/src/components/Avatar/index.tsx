@@ -4,7 +4,7 @@ import { AvatarContainer, AvatarImage, AvatarFallback } from './styles'
 
 export interface AvatarProps extends ComponentProps<typeof AvatarImage> {}
 
-export function Avatar({ size, ...props }: AvatarProps) {
+export const Avatar = ({ size, ...props }: AvatarProps) => {
   return (
     <AvatarContainer size={size}>
       <AvatarImage {...props} />

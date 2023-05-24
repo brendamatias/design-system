@@ -10,12 +10,12 @@ export interface TotalInfoProps extends ComponentProps<typeof Card> {
   total: number
 }
 
-export function TotalInfo({
+export const TotalInfo = ({
   title,
   subtitle,
   total,
   ...props
-}: TotalInfoProps) {
+}: TotalInfoProps) => {
   return (
     <Card {...props}>
       <Heading>{title}</Heading>

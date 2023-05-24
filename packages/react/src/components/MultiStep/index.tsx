@@ -5,7 +5,7 @@ export interface MultiStepProps {
   currentStep?: number
 }
 
-export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
+export const MultiStep = ({ size, currentStep = 1 }: MultiStepProps) => {
   return (
     <MultiStepContainer>
       <Label>

@@ -6,7 +6,7 @@ export interface CheckboxProps extends ComponentProps<typeof CheckboxRoot> {
   label?: string
 }
 
-export function Checkbox({ label, ...props }: CheckboxProps) {
+export const Checkbox = ({ label, ...props }: CheckboxProps) => {
   return (
     <CheckboxContainer size="sm" as="label">
       <CheckboxRoot {...props}>
