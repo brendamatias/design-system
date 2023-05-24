@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.12.0
+
+### Minor Changes
+
+- add faq question and page title components
+
 ## 1.11.1
 
 ### Patch Changes
