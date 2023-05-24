@@ -1,10 +1,8 @@
-import { ComponentProps } from 'react'
-
 import { Container, Content } from './styles'
 import { Heading } from '../Heading'
 import { Button } from '../Button'
 
-export interface BannerProps extends ComponentProps<typeof Container> {
+export interface BannerProps {
   title: string
   img: string
   redirect: {
@@ -13,7 +11,7 @@ export interface BannerProps extends ComponentProps<typeof Container> {
   }
 }
 
-export const Banner = ({ img, title, redirect, ...props }: BannerProps) => {
+export const Banner = ({ img, title, redirect }: BannerProps) => {
   return (
     <Container
       style={{
@@ -21,7 +19,6 @@ export const Banner = ({ img, title, redirect, ...props }: BannerProps) => {
         backgroundRepeat: 'no-repeat',
         backgroundColor: '#8bc53f',
       }}
-      {...props}
     >
       <Content>
         <Heading as="h1">{title}</Heading>

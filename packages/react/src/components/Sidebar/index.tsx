@@ -1,4 +1,4 @@
-import { ComponentProps, ReactElement } from 'react'
+import { ReactElement } from 'react'
 import {
   ButtonToggleRetracted,
   CallToAction,
@@ -24,7 +24,7 @@ type LinkSidebar = {
   }
 }
 
-export interface SidebarProps extends ComponentProps<typeof SidebarContainer> {
+export interface SidebarProps {
   links: LinkSidebar[]
   logoutPath: string
   callToActionText: string
@@ -34,14 +34,13 @@ export const Sidebar = ({
   links,
   logoutPath,
   callToActionText,
-  ...props
 }: SidebarProps) => {
   const [isRetracted, toggleIsRetracted] = useToggle(false)
 
   const isActive = (path: string) => window.location.pathname.includes(path)
 
   return (
-    <SidebarContainer {...props}>
+    <SidebarContainer>
       <div>
         <Content>
           <div>

@@ -1,23 +1,16 @@
-import { ComponentProps } from 'react'
-
 import { Card } from './styles'
 import { Heading } from '../Heading'
 import { Text } from '../Text'
 
-export interface TotalInfoProps extends ComponentProps<typeof Card> {
+export interface TotalInfoProps {
   title: string
   subtitle: string
   total: number
 }
 
-export const TotalInfo = ({
-  title,
-  subtitle,
-  total,
-  ...props
-}: TotalInfoProps) => {
+export const TotalInfo = ({ title, subtitle, total }: TotalInfoProps) => {
   return (
-    <Card {...props}>
+    <Card>
       <Heading>{title}</Heading>
       <Text as="span">{total}</Text>
 
