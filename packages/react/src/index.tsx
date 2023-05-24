@@ -21,6 +21,7 @@ export * from './components/Dialog'
 export * from './components/TotalInfo'
 export * from './components/Banner'
 export * from './components/EmptyList'
+export * from './components/FilterDate'
 
 export * from './styles'
 export * from './utils'

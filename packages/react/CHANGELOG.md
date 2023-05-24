@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.11.0
+
+### Minor Changes
+
+- add filter date component
+
 ## 1.10.1
 
 ### Patch Changes
