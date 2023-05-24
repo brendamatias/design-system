@@ -1,4 +1,4 @@
-import { Text } from '@vibbra-ui/react'
+import { Text } from '../Text'
 import { DatePicker } from './DatePicker'
 
 import { FilterDateContainer } from './styles'

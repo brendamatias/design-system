@@ -1,4 +1,6 @@
-import { Box, Text, styled } from '@vibbra-ui/react'
+import { styled } from '../../styles'
+import { Box } from '../Box'
+import { Text } from '../Text'
 
 export const FilterDateContainer = styled(Box, {
   display: 'flex',

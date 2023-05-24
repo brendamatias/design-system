@@ -1,5 +1,5 @@
-import { styled } from '@vibbra-ui/react'
 import DatePicker from 'react-datepicker'
+import { styled } from '../../../styles'
 
 export const Container = styled('div', {
   display: 'flex',
