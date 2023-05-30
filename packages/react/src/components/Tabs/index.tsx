@@ -19,12 +19,17 @@ type Option = {
 export interface TabsProps {
   options: Option[]
   variant?: 'horizontal' | 'vertical'
+  defaultValue?: string
 }
 
-export const Tabs = ({ options, variant = 'horizontal' }: TabsProps) => {
+export const Tabs = ({
+  options,
+  variant = 'horizontal',
+  defaultValue,
+}: TabsProps) => {
   return (
     <TabsContainer
-      defaultValue={options[0].id}
+      defaultValue={defaultValue || options[0].id}
       orientation={variant}
       variant={variant}
     >

@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.13.1
+
+### Patch Changes
+
+- add defaultValue on tab component
+
 ## 1.13.0
 
 ### Minor Changes
