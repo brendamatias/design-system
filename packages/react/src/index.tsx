@@ -24,6 +24,7 @@ export * from './components/EmptyList'
 export * from './components/FilterDate'
 export * from './components/FaqQuestion'
 export * from './components/PageTitle'
+export * from './components/Pagination'
 
 export * from './styles'
 export * from './utils'

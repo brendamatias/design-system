@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.13.0
+
+### Minor Changes
+
+- add pagination component
+
 ## 1.12.0
 
 ### Minor Changes
