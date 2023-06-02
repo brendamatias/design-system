@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.14.0
+
+### Minor Changes
+
+- add dropdown components and refactor pagination
+
 ## 1.13.1
 
 ### Patch Changes
