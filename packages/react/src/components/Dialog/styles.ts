@@ -32,6 +32,12 @@ export const DialogContent = styled(Dialog.Content, {
     gap: '$10',
     marginBottom: '$10',
     paddingRight: '$10',
+
+    '> div:first-child': {
+      display: 'flex',
+      alignItems: 'center',
+      gap: '$4',
+    },
   },
 
   '> .content': {

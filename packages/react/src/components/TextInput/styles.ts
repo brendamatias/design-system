@@ -61,4 +61,14 @@ export const Input = styled('input', {
   '&::placeholder': {
     color: '$gray200',
   },
+
+  '&[type=number]': {
+    '-moz-appearance': 'textfield',
+    '-webkit-appearance': 'none',
+    margin: 0,
+  },
+
+  '&::-webkit-outer-spin-button, &::-webkit-inner-spin-button': {
+    '-webkit-appearance': 'none',
+  },
 })
