@@ -7,6 +7,7 @@ export interface DropdownProps {
   items: {
     label: string
     onClick: () => void
+    disabled?: boolean
   }[]
 }
 
@@ -21,8 +22,14 @@ export const Dropdown = ({ items = [] }: DropdownProps) => {
 
       <DropdownMenu.Portal>
         <Container sideOffset={5}>
-          {items.map(({ label, onClick }) => (
-            <Button key={label} onClick={onClick} variant="tertiary" size="sm">
+          {items.map(({ label, onClick, disabled = false }) => (
+            <Button
+              key={label}
+              onClick={onClick}
+              variant="tertiary"
+              size="sm"
+              disabled={disabled}
+            >
               {label}
             </Button>
           ))}

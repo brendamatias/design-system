@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.14.1
+
+### Patch Changes
+
+- add disabled props on dropdown items
+
 ## 1.14.0
 
 ### Minor Changes
