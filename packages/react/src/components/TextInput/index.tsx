@@ -4,7 +4,7 @@ import { Label } from '../Label'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
   label?: string
-  error?: string
+  error?: any
   prefix?: string
 }
 

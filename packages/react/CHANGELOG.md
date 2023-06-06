@@ -1,5 +1,11 @@
 # @vibbra-ui/react
 
+## 1.14.2
+
+### Patch Changes
+
+- add any prop types
+
 ## 1.14.1
 
 ### Patch Changes

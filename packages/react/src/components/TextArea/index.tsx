@@ -4,7 +4,7 @@ import { Label } from '../Label'
 
 export interface TextAreaProps extends ComponentProps<typeof TextAreaInput> {
   label: string
-  error?: string
+  error?: any
 }
 
 export const TextArea = forwardRef<

@@ -9,7 +9,7 @@ import { SelectItem } from './SelectItem'
 export interface SelectInputProps extends ComponentProps<typeof Select.Root> {
   label: string
   placeholder?: string
-  error?: string
+  error?: any
   options: {
     value: string
     label: string

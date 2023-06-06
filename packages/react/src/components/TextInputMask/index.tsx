@@ -4,7 +4,7 @@ import { Label } from '../Label'
 
 export interface TextInputMaskProps extends ComponentProps<typeof Input> {
   label?: string
-  error?: string
+  error?: any
 }
 
 export const TextInputMask = forwardRef<
