@@ -1,0 +1,2 @@
+import{f as t,T as o}from"./index.1d8fa9e4.js";import{j as i}from"./jsx-runtime.c98c01fe.js";import"./index.62d5be63.js";import"./iframe.69f95238.js";import"./index.fa3d83ac.js";import"./isNativeReflectConstruct.7455ec7d.js";const n={title:"Data display/Tooltip",component:t,args:{children:i(o,{size:"sm",children:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."})}},d={},l=["Primary"];export{d as Primary,l as __namedExportsOrder,n as default};
+//# sourceMappingURL=Tooltip.stories.e210b7bb.js.map

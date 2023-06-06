@@ -1,0 +1,2 @@
+import{d as r}from"./index.1d8fa9e4.js";import"./index.62d5be63.js";import"./iframe.69f95238.js";import"./index.fa3d83ac.js";import"./jsx-runtime.c98c01fe.js";import"./isNativeReflectConstruct.7455ec7d.js";const d={title:"Form/Text Area",component:r,args:{label:"Observation",placeholder:"Add any observations..."}},m={args:{}},n={args:{error:"Required field"}},l={args:{disabled:!0}},p=["Primary","Error","Disabled"];export{l as Disabled,n as Error,m as Primary,p as __namedExportsOrder,d as default};
+//# sourceMappingURL=TextArea.stories.a82d2961.js.map
